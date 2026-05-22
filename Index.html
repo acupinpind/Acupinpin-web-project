@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decemarie Acupinpin - Personal Web Page</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root{
+      --bg1:rgb(187, 53, 158);   
+      --bg2:rgb(29, 9, 85);     
+      --card:#fdfdfd;  
+      --text:#111111;
+      --muted:#555555;
+      --border:#333333;
+      --shadow:0 8px 20px rgba(0,0,0,0.25);
+    }
+
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family:system-ui,Arial;
+      background: linear-gradient(135deg, var(--bg1), var(--bg2));
+    }
+
+    .card{
+      display:flex;
+      align-items:center;
+      gap:20px;
+      background:var(--card);
+      border-radius:20px;
+      padding:28px 36px;
+      box-shadow:var(--shadow);
+      border:3px solid var(--border);
+      max-width:640px;
+      width:90%;
+    }
+
+    .avatar{
+      width:100px;
+      height:100px;
+      border-radius:50%;
+      background:linear-gradient(135deg, var(--bg1), var(--bg2));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-shrink:0;
+      color:#fff;
+      font-size:2rem;
+      font-weight:700;
+    }
+
+    .info{
+      text-align:left;
+      flex:1;
+    }
+
+    .info h1{
+      margin:0;
+      font-size:1.6rem;
+      color:var(--text);
+    }
+
+    .info p{
+      margin:4px 0;
+      color:var(--muted);
+    }
+
+    .info .role{
+      font-weight:600;
+      color:#444;
+    }
+
+    .contact{
+      margin-top:10px;
+      color:var(--muted);
+    }
+
+    .contact i{
+      color:#000;
+      margin-right:6px;
+    }
+
+    .contact div{
+      margin:4px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="avatar">
+      DA
+    </div>
+
+    <div class="info">
+      <h1>Decemarie Acupinpin</h1>
+      <p class="role">Student / Aspiring Developer</p>
+      <p>Personal Web Page</p>
+
+      <div class="contact">
+        <div><i class="fa-solid fa-phone"></i> +63 09757108997</div>
+        <div><i class="fa-solid fa-envelope"></i> decemarieacupinpin@email.com</div>
+        <div><i class="fa-solid fa-globe"></i> github.com/DecemarieAcupinpin</div>
+        <div><i class="fa-solid fa-location-dot"></i> New Guia, Maayon, Capiz</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
